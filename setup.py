@@ -21,6 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'pose_publisher = ros2_realsense_yolo.pose_publisher:main',
+            'laser_publisher = ros2_realsense_yolo.laser_publisher:main',
+            'user_detection_publisher = ros2_realsense_yolo.user_detection_publisher:main',
         ],
     },
 )
